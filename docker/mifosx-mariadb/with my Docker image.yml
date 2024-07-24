@@ -5,8 +5,8 @@ services:
     image: openmf/web-app:master
     restart: always
     environment:
-      - FINERACT_API_URLS=http://46.101.103.119:8080
-      - FINERACT_API_URL=http://46.101.103.119:8080
+      - FINERACT_API_URLS=http://localhost:8080
+      - FINERACT_API_URL=http://localhost:8080
       - FINERACT_API_PROVIDER=/fineract-provider/api
       - FINERACT_API_VERSION=/v1
       - FINERACT_PLATFORM_TENANT_IDENTIFIER=default
